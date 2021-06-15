@@ -1,0 +1,311 @@
+
+html {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* container */
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+
+  transition: transform 0.2s;
+}
+
+.header__logo {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 30px;
+}
+
+.logo2 {
+  font-family: 'Creepster', cursive;
+  font-size: 110px;
+  color: #6fe70b;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-shadow: 0 0 40px black;
+
+  transition: 0.2s;
+}
+
+.logo2:hover {
+  text-shadow: 0 0 5px #6fe70b;
+}
+
+.down {
+    font-family: 'Calligraffitti', cursive;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 10px;
+  color: white;
+  text-shadow: 0 0 40px black;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  position: relative;
+  width: 309px;
+  max-width: 309px;
+  height: 50px;
+  max-height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-style: 700;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+
+  transition: 0.2s;
+}
+
+.click__gorod {
+  margin: 0 auto;
+  display: block;
+  padding-top: 15px;
+}
+
+.btn a {
+  font-weight: 700;
+  color: #f0f0f0;
+  text-shadow: 0 0 20px black;
+  transition: 0.2s;
+}
+
+.container3 p {
+  line-height: 5px;
+}
+
+.gorod {
+  position: relative;
+  width: 100%;
+  max-width: 310px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: rgba(96, 183, 9, 0.1);;
+}
+
+.gorod__name {
+max-width: 170px;
+line-height: 1.3;
+margin-left: 15px;
+color: white;
+}
+
+.gorod__date {
+  font-size: 14px;
+  margin-top: 5px;
+  color: silver;
+  margin-left: 15px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.line {
+  width: 100%;
+  margin-top: 25px;
+  position: relative;
+
+  border-top: 1px solid white;
+  opacity: 0.4;
+
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.sale {
+  margin-left: 255px;
+  position:absolute; right: 0px;
+  margin-top: 12px;
+  margin-right: 15px;
+  padding: 8px;
+  background-color: white;
+  height: 37px;
+  width: 37px;
+  border-radius: 2px;
+}
+
+.sale:hover {
+  background-color: #c8c6c6;
+}
+
+.sale-vk {
+  margin-left: 255px;
+  position:absolute; right: 0px;
+  margin-top: 12px;
+  margin-right: 67px;
+  padding: 8px;
+  background-color: white;
+  height: 37px;
+  width: 37px;
+  border-radius: 2px;
+}
+
+.sale-vk:hover {
+  background-color: #c8c6c6;
+}
+
+.icons {
+  position: relative;
+  width: 100%;
+  max-width: 310px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  margin-top: 28px;
+}
+
+.icons_1 {
+  height: 37px;
+  width: 37px;
+  padding: 8px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.icons_1:hover {
+  background-color: #0e0e0e;
+}
+
+.container2 {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center; / /* если нужно выравнивание по вертикали */
+  width: 100%;
+  max-width: 310px;
+}
+
+.container1 {
+  margin: 0 auto;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center; / /* если нужно выравнивание по вертикали */
+}
+
+.container3 {
+  margin: 0 auto;
+  width: 305px;
+  text-align: center;
+  display: none;
+  text-shadow: 0 0 40px black;
+  background-color: rgba(96, 183, 9, 0.1);;
+  padding: 15px;
+  line-height: 1.3;
+  width: 100%;
+  max-width: 310px;
+}
+
+.contact {
+  margin-top: -12px;
+}
+
+.contact p {
+  margin-top: 30px;
+}
+
+
+.header__logo {
+  display: block;
+  animation: wiggle 2.5s infinite;
+}
+
+.header__logo:hover {
+  animation: none;
+}
+
+.img__music {
+  width: 250px;
+  height: 250px;
+  margin-top: 14px;
+
+  transform: perspective(200px)
+}
+
+.img__music:hover {
+
+}
+
+.music {
+  margin-top: 14px;
+}
+
+.music__name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.music a {
+  text-decoration: none;
+  color: white;
+
+  transition: 0.2s;
+}
+
+.music a:hover {
+  color: #a0f200;
+}
+
+.lolkek {
+  border-radius: 10px;
+  background-color: black;
+  padding: 10px;
+  padding-top: -20px;
+  font-weight: 700;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.lolkekots {
+  margin-bottom: 20px;
+}
+
+.lolkek2 {
+  margin-bottom: 30px;
+}
